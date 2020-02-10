@@ -12,7 +12,6 @@ mongoose.connect(DB, {
   useFindAndModify: false
 }).then(() => console.log('DB connection successfull!'));
 
-
 // console.log(process.env);
 
 const port = process.env.PORT || 3000;
